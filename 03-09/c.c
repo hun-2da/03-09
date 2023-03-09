@@ -3,7 +3,7 @@
 int main(void) {
 	int sum = 0;
 
-	for (int i = 2; i < 101; i++) {
+	for (int i = 0; i < 101; i++) {
 		for (int i2 = 2; i2 <= i; i2++) {
 			if (i != i2 && i % i2 == 0)
 				break;
